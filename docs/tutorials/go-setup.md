@@ -72,19 +72,23 @@ func main() {
 
 2. Initialize the Go module system
 ```
-go mod init hello-go
+go mod init HelloGo
 ```
 
 3. Run the program
 ```
 go run main.go
 ```
+> This compiles and executes the main package in one step and is best used for quick testing
+It doesn't create an executable file
 
 4. Build a binary
 ```
 go build -o hello
 ./hello
 ```
+> This compiles the program into a binary executable. It is similar to the gcc subcommand which creates the a.out file.
+While we use the gcc subcommand for C programs, we use the build for go.
 
 
 
