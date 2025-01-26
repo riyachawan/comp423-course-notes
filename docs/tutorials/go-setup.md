@@ -7,10 +7,10 @@
 
 ## Prerequisites
 
-1. Have Visual Studio Code installed
-2. Install the Dev Containers extension for VS Code
-3. Have docker running 
-4. Have git installed 
+1. Have Visual Studio Code installed.
+2. Install the Dev Containers extension for VS Code.
+3. Have docker running. 
+4. Have git installed. 
 
 ## Git initialization
 
@@ -45,6 +45,7 @@ Here's the configuration for *devcontainer.json* file:
     }
 }
 ```
+This installs the official Go VSCode Plugin.
 
 3. Open the dev container in VSCode 
 4. Press **Ctrl+Shift+P** and select *Remote-Containers: Reopen in Container*
@@ -54,7 +55,7 @@ Note:
 Ensure Docker is running before trying to reopen.
 ```
 
-Verify the recent version of Go using
+Verify the recent version of Go using:
 ```
 go version
 ```
@@ -79,8 +80,8 @@ go mod init HelloGo
 ```
 go run main.go
 ```
-> This compiles and executes the main package in one step and is best used for quick testing
-It doesn't create an executable file
+> This compiles and executes the main package in one step and is best used for quick testing.
+It doesn't create an executable file.
 
 4. Build a binary
 ```
